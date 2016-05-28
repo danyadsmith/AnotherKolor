@@ -28,7 +28,7 @@
 				<key>findHighlightForeground</key>
 				<string>#FFFFFF</string>
 				<key>foreground</key>
-				<string>#969696</string>
+				<string>#FFFFFF</string>
 				<key>guide</key>
 				<string>#525252</string>
 				<key>inactiveSelection</key>
@@ -40,9 +40,9 @@
 				<key>searchHighlight</key>
 				<string>#FFFFFF</string>
 				<key>selection</key>
-				<string>#3F352A</string>
+				<string>#3C3C3C</string>
 				<key>selectionBorder</key>
-				<string>#3F352A</string>
+				<string>#3C3C3C</string>
 				<key>stackGuide</key>
 				<string>#525252</string>
 			</dict>
@@ -55,7 +55,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#525252</string>
+				<string>#3D3D3D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -154,7 +154,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FCD660</string>
+				<string>#abe9fb</string>
 			</dict>
 		</dict>
 		<dict>
@@ -261,7 +261,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FCD660</string>
+				<string>#BDEC35</string>
 			</dict>
 		</dict>
 		<dict>
