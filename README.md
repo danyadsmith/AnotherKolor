@@ -6,6 +6,7 @@ Another Kolor is a color scheme for web developers with code coloring configured
 * CSS and Sass
 * JavaScript
 * Markdown
+* Ruby and Rails
 
 ![Another Kolor (Dark) theme - HTML](screenshots/html_dark.png)
 

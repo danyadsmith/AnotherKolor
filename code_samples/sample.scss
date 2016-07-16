@@ -1,0 +1,35 @@
+// ----------------------------
+//   Color Wheel
+// ----------------------------
+
+$red: #ff0000;
+$vermilion: #ff6600;
+$orange: #ff9900;
+$amber: #ffcc00;
+$yellow: #ffff00;
+$chartreuse: #ace600;
+$green: #00cc00;
+$viridian: #0099cc;
+$blue: #0055cc;
+$violet: #2200cc;
+$purple: #8800cc;
+$magenta: #d9007e;
+
+@mixin shadow($x, $y, $blur, $color){
+  -webkit-box-shadow: $x $y $blur $color;
+     -moz-box-shadow: $x $y $blur $color;
+          box-shadow: $x $y $blur $color;
+}
+
+article {
+  font-family: "Open Sans", sans-serif;
+}
+
+#mainNav {
+  background-color: black;
+}
+
+.socialIcon {
+  width: 20px;
+  height: 20px;
+}
