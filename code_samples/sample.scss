@@ -2,34 +2,35 @@
 //   Color Wheel
 // ----------------------------
 
-$red: #ff0000;
-$vermilion: #ff6600;
-$orange: #ff9900;
-$amber: #ffcc00;
-$yellow: #ffff00;
+$red: #f00;
+$vermilion: #f60;
+$orange: #f90;
+$amber: #fc0;
+$yellow: #ff0;
 $chartreuse: #ace600;
-$green: #00cc00;
-$viridian: #0099cc;
-$blue: #0055cc;
-$violet: #2200cc;
-$purple: #8800cc;
+$green: #0c0;
+$viridian: #09c;
+$blue: #05c;
+$violet: #20c;
+$purple: #80c;
 $magenta: #d9007e;
+$black: #000;
 
-@mixin shadow($x, $y, $blur, $color){
+@mixin shadow($x, $y, $blur, $color) {
   -webkit-box-shadow: $x $y $blur $color;
-     -moz-box-shadow: $x $y $blur $color;
-          box-shadow: $x $y $blur $color;
+  -moz-box-shadow: $x $y $blur $color;
+  box-shadow: $x $y $blur $color;
 }
 
 article {
   font-family: "Open Sans", sans-serif;
 }
 
-#mainNav {
-  background-color: black;
+#main-nav {
+  background-color: $black;
 }
 
-.socialIcon {
-  width: 20px;
+.social-icon {
   height: 20px;
+  width: 20px;
 }
